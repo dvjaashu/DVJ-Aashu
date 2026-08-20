@@ -1,0 +1,102 @@
+import { TourDate } from '../types';
+
+export const TOUR_DATES: TourDate[] = [
+  {
+    id: 'tour-1',
+    date: '2026-09-12',
+    day: '12',
+    month: 'SEP',
+    year: '2026',
+    venue: 'Ora Club & Terrace',
+    city: 'Jaipur',
+    country: 'Rajasthan, India',
+    eventTitle: 'DVJ Aashu Audio-Visual Residency Night',
+    stageType: 'Club Residency',
+    status: 'Confirmed',
+    ticketUrl: 'https://oraclub.com'
+  },
+  {
+    id: 'tour-2',
+    date: '2026-09-26',
+    day: '26',
+    month: 'SEP',
+    year: '2026',
+    venue: 'City Palace Grand Courtyard',
+    city: 'Udaipur',
+    country: 'Rajasthan, India',
+    eventTitle: 'Royal Heritage Gala & Live Flute Electronic Fusion',
+    stageType: 'Royal Palace Gala',
+    status: 'Private By Invitation',
+    ticketUrl: 'https://udaipurpalaceevents.com'
+  },
+  {
+    id: 'tour-3',
+    date: '2026-10-10',
+    day: '10',
+    month: 'OCT',
+    year: '2026',
+    venue: 'Taj Rambagh Palace',
+    city: 'Jaipur',
+    country: 'Rajasthan, India',
+    eventTitle: 'Bespoke Destination Wedding & Sufi Techno Night',
+    stageType: 'Royal Palace Gala',
+    status: 'Private By Invitation',
+    ticketUrl: 'https://tajhotels.com'
+  },
+  {
+    id: 'tour-4',
+    date: '2026-10-24',
+    day: '24',
+    month: 'OCT',
+    year: '2026',
+    venue: 'Club BW / Aerocity Arena',
+    city: 'New Delhi',
+    country: 'India',
+    eventTitle: 'Disciple of Nature Audio-Visual Tour (Feat. Nazar Khan)',
+    stageType: 'Audio-Visual Mainstage',
+    status: 'Few Passes Left',
+    ticketUrl: 'https://insider.in'
+  },
+  {
+    id: 'tour-5',
+    date: '2026-11-14',
+    day: '14',
+    month: 'NOV',
+    year: '2026',
+    venue: 'Thalassa / Vagator Beach Stage',
+    city: 'Goa',
+    country: 'India',
+    eventTitle: 'Translucent Sunset — Deep Folk & House Experience',
+    stageType: 'Poolside Sunset',
+    status: 'Confirmed',
+    ticketUrl: 'https://thalassagoa.com'
+  },
+  {
+    id: 'tour-6',
+    date: '2026-12-05',
+    day: '05',
+    month: 'DEC',
+    year: '2026',
+    venue: 'Soho Garden / Palm Jumeirah',
+    city: 'Dubai',
+    country: 'United Arab Emirates',
+    eventTitle: 'Sufi Electronic & Bollywood AV Showcase',
+    stageType: 'Audio-Visual Mainstage',
+    status: 'Few Passes Left',
+    ticketUrl: 'https://sohogardendxb.com'
+  },
+  {
+    id: 'tour-7',
+    date: '2026-12-31',
+    day: '31',
+    month: 'DEC',
+    year: '2026',
+    venue: 'Hotel OM Tower Landmark Arena',
+    city: 'Jaipur',
+    country: 'Rajasthan, India',
+    eventTitle: 'NYE 2027 Heavy Audio-Visual Extravaganza',
+    stageType: 'Audio-Visual Mainstage',
+    status: 'Guestlist Open',
+    ticketUrl: 'https://omtower.com'
+  }
+];
